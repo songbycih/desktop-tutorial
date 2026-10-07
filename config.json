@@ -1,0 +1,41 @@
+{
+ "_comment_polling": "감시 루프 주기 (ms 단위, 1000 = 1초)", 
+ "polling_interval_ms": 600,
+
+  "_comment_long_stop": "장기 정지 경보 기준 시간 (ms 단위, 600000 = 10분)",
+  "long_stop_alert_ms": 600000,
+
+  "_comment_timeout": "수집 서버 API 통신 타임아웃 (ms 단위, 10000 = 10초)",
+  "request_timeout_ms": 10000,
+
+  "_comment_repeat": "동일 알람 연속 감지 기준 횟수",
+  "repeat_alarm_threshold": 3,
+
+  "_comment_ignore_all": "알림 발송 및 집계에서 완전 제외할 알람 키워드",
+  "ignore_all_alarms": [
+    "E_TEST_RESULT_FAIL",
+    "라이트 커튼",
+    "LIGHT_CURTAIN",
+    "AIR_BALANCE_SHUTTLE_LIFT_PART_SENSOR",
+    "AIR_BALANCE_TOP_PLATE_VACUUM",
+    "AIR_BALANCE_VACUUM",
+    "DISPENSER_TRASH_CAN_FULL",
+    "MES_TRANSFER",
+    "WARN_AEROGEL_EMPTY",
+    "VOL_RESULT_INTERLOCK",
+    "GAS INSPECTION BEFORE CLEANING FAIL",
+    "HOTMELT_PURGE_ERROR",
+    "LIFT_TRAY_AEROGEL",
+    "디스펜서 Purge 횟수 초과"
+  ],
+
+  "_comment_ignore_repeat": "알림은 보내되, 연속 알람 카운트(3회)에서는 제외할 키워드 (단순 도어, 수동 조작 등)",
+  "ignore_repeat_alarms": [
+    "MC02_LOADER_GRIP_SENSOR",
+    "FEEDER_DROP_READY_SIGNAL",
+    "AM01_04_CELL_LD_CV_2_ALARM_CHECK",
+    "TOP_BUSBAR_HOLDER_CYLINDER",
+    "OK셀 포트에 셀을 채워야 합니다",
+    "WARN_CONVEYOR_NG_PORT"
+  ]
+}

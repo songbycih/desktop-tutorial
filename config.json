@@ -26,7 +26,9 @@
     "GAS INSPECTION BEFORE CLEANING FAIL",
     "HOTMELT_PURGE_ERROR",
     "LIFT_TRAY_AEROGEL",
-    "디스펜서 Purge 횟수 초과"
+    "디스펜서 Purge 횟수 초과",
+    "WELDING_DONWSTEAM_NOT_EMPTY",
+    "용접 가압지그 청소"
   ],
 
   "_comment_ignore_repeat": "알림은 보내되, 연속 알람 카운트(3회)에서는 제외할 키워드 (단순 도어, 수동 조작 등)",

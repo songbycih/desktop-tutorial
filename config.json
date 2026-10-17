@@ -1,6 +1,6 @@
 {
  "_comment_polling": "감시 루프 주기 (ms 단위, 1000 = 1초)", 
- "polling_interval_ms": 600,
+ "polling_interval_ms": 900,
 
   "_comment_long_stop": "장기 정지 경보 기준 시간 (ms 단위, 600000 = 10분)",
   "long_stop_alert_ms": 600000,
@@ -9,7 +9,7 @@
   "request_timeout_ms": 10000,
 
   "_comment_repeat": "동일 알람 연속 감지 기준 횟수",
-  "repeat_alarm_threshold": 3,
+  "repeat_alarm_threshold": 5,
 
   "_comment_ignore_all": "알림 발송 및 집계에서 완전 제외할 알람 키워드",
   "ignore_all_alarms": [
